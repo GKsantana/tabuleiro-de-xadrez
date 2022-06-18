@@ -1,26 +1,16 @@
-.tabela{
-    top: 0%;
-    left: 0%;
-    position: absolute;
-}
-
 .preta{
-    background: #000000;
-}
-
-.branca{
-    background-color: #ffff;
+    background: #1e373be0;
 }
 
 #cavalo{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     position: absolute;
     animation: cavalo 10s infinite;
 }
 
 @keyframes cavalo{
-    0%{top: 6px; left: 57px;}
+    0%{top: 6px; left: 60px;}
     12.5%{top: 105px; left: 105px;}
     25%{top: 205px; left: 155px;}
     37.5%{top: 305px; left: 205px;}
