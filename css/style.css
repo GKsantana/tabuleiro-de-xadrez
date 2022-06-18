@@ -4,19 +4,19 @@
 
 #cavalo{
     width: 45px;
-    height: 45px;
+    height: 40px;
     position: absolute;
     animation: cavalo 10s infinite;
 }
 
 @keyframes cavalo{
-    0%{top: 6px; left: 60px;}
-    12.5%{top: 105px; left: 105px;}
-    25%{top: 205px; left: 155px;}
-    37.5%{top: 305px; left: 205px;}
-    50%{top: 354px; left: 305px;}
-    62.5%{top: 305px; left: 205px;}
-    75%{top: 205px; left: 155px;}
-    87.5%{top: 105px; left: 105px;}
-    100%{top: 6px; left: 57px;}
+    0%{top: 10px; left: 60px;}
+    12.5%{top: 115px; left: 110px;}
+    25%{top: 215px; left: 160px;}
+    37.5%{top: 315px; left: 210px;}
+    50%{top: 363px; left: 310px;}
+    62.5%{top: 315px; left: 210px;}
+    75%{top: 215px; left: 160px;}
+    87.5%{top: 115px; left: 110px;}
+    100%{top: 15px; left: 60px;}
 }
